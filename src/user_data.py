@@ -14,14 +14,10 @@ def transcribe_audio(file_path="input.wav"):
     result = model.transcribe(file_path)
     return result["text"]
 
-def get_input(user_input = "text"):
-    if user_input == "text":
-        return input('Enter your Query':)
+def get_input():
+
     
-    elif user_input == "voice":
-        return transcribe_audio()
     
-    elif user_input == "pdf":
         
 
 
