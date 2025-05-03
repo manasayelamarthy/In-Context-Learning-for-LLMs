@@ -6,6 +6,7 @@ from langchain.embeddings.base import Embeddings
 import uuid
 import subprocess
 
+
 class SentenceTransformerEmbeddings(Embeddings):
     def __init__(self, model_name: str = "sentence-transformers/all-mpnet-base-v2", device: str = "cpu"):
         self.transformer = SentenceTransformer(model_name, device=device)
