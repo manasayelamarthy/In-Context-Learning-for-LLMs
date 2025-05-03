@@ -1,0 +1,903 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Hyperbolic Image Segmentation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          198.78900146484375,
+          105.9219970703125
+        ],
+        [
+          396.43658447265625,
+          105.9219970703125
+        ],
+        [
+          396.43658447265625,
+          120.2681884765625
+        ],
+        [
+          198.78900146484375,
+          120.2681884765625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          145.1845428943634,
+          445.8511047363281
+        ],
+        [
+          190.48028564453125,
+          445.8511047363281
+        ],
+        [
+          190.48028564453125,
+          457.8063049316406
+        ],
+        [
+          145.1845428943634,
+          457.8063049316406
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          49.28063178062439,
+          615.3900604248047
+        ],
+        [
+          127.39810466766357,
+          615.3900604248047
+        ],
+        [
+          127.39810466766357,
+          627.3452606201172
+        ],
+        [
+          49.28063178062439,
+          628.0925717353821
+        ]
+      ]
+    },
+    {
+      "title": "2. Related work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          49.58669623732567,
+          555.2420959472656
+        ],
+        [
+          130.8351205587387,
+          555.203782081604
+        ],
+        [
+          130.8351205587387,
+          567.1972961425781
+        ],
+        [
+          49.58669623732567,
+          567.6682863235474
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Image segmentation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          50.11207580566406,
+          575.9977722167969
+        ],
+        [
+          163.33944702148438,
+          575.9977722167969
+        ],
+        [
+          163.33944702148438,
+          586.9566650390625
+        ],
+        [
+          49.64814805984497,
+          587.5797228813171
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Hyperbolic deep learning",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          308.862060546875,
+          245.6048583984375
+        ],
+        [
+          446.6045227050781,
+          245.6048583984375
+        ],
+        [
+          446.6045227050781,
+          256.56378173828125
+        ],
+        [
+          308.862060546875,
+          257.15069103240967
+        ]
+      ]
+    },
+    {
+      "title": "3. Image segmentation on the hyperbole",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          48.93912434577942,
+          72.787109375
+        ],
+        [
+          253.1591339111328,
+          72.787109375
+        ],
+        [
+          253.1591339111328,
+          84.7423095703125
+        ],
+        [
+          48.93912434577942,
+          84.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Background: The Poincare ball model \u00b4",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          49.08957803249359,
+          92.832763671875
+        ],
+        [
+          248.48963928222656,
+          92.832763671875
+        ],
+        [
+          248.48963928222656,
+          103.88470458984375
+        ],
+        [
+          49.08957803249359,
+          103.88470458984375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Tractable pixel-level hyperbolic classification",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          50.111968994140625,
+          469.6728210449219
+        ],
+        [
+          278.99957275390625,
+          469.6728210449219
+        ],
+        [
+          278.99957275390625,
+          480.6317138671875
+        ],
+        [
+          49.27096509933472,
+          480.6317138671875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Hierarchical hyperbolic class embedding",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          49.40835052728653,
+          612.8244476318359
+        ],
+        [
+          259.7997131347656,
+          612.8244476318359
+        ],
+        [
+          259.7997131347656,
+          623.7833404541016
+        ],
+        [
+          49.40835052728653,
+          623.7833404541016
+        ]
+      ]
+    },
+    {
+      "title": "4. Analyses",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          308.5589346885681,
+          449.76904296875
+        ],
+        [
+          365.98388671875,
+          449.76904296875
+        ],
+        [
+          365.98388671875,
+          461.7242431640625
+        ],
+        [
+          308.5589346885681,
+          461.7242431640625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Setup",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          308.8619384765625,
+          469.4627380371094
+        ],
+        [
+          354.8799569606781,
+          469.4627380371094
+        ],
+        [
+          354.8799569606781,
+          480.421630859375
+        ],
+        [
+          308.8619384765625,
+          480.421630859375
+        ]
+      ]
+    },
+    {
+      "title": "4.2. Uncertainty and boundary information for free",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          49.44424492120743,
+          541.1934967041016
+        ],
+        [
+          287.21880555152893,
+          541.1934967041016
+        ],
+        [
+          287.21880555152893,
+          552.1523895263672
+        ],
+        [
+          49.44424492120743,
+          552.1523895263672
+        ]
+      ]
+    },
+    {
+      "title": "4.3. Zero-label generalization",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          49.57102435827255,
+          636.0677795410156
+        ],
+        [
+          186.8900604248047,
+          636.0677795410156
+        ],
+        [
+          186.8900604248047,
+          647.0266723632812
+        ],
+        [
+          49.57102435827255,
+          647.0266723632812
+        ]
+      ]
+    },
+    {
+      "title": "4.4. Low-dimensional embedding effectiveness",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          49.51725572347641,
+          541.1936950683594
+        ],
+        [
+          265.6077880859375,
+          541.1936950683594
+        ],
+        [
+          265.6077880859375,
+          552.152587890625
+        ],
+        [
+          49.51725572347641,
+          552.152587890625
+        ]
+      ]
+    },
+    {
+      "title": "4.5. Further ablations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          308.4067847728729,
+          636.8355712890625
+        ],
+        [
+          410.5385437011719,
+          636.8355712890625
+        ],
+        [
+          410.5385437011719,
+          647.7944641113281
+        ],
+        [
+          308.4067847728729,
+          647.7944641113281
+        ]
+      ]
+    },
+    {
+      "title": "5. Conclusions",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          307.36672282218933,
+          321.36505126953125
+        ],
+        [
+          383.09842228889465,
+          321.36505126953125
+        ],
+        [
+          383.09842228889465,
+          333.32025146484375
+        ],
+        [
+          307.36672282218933,
+          333.897344827652
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          49.7347286939621,
+          72.787109375
+        ],
+        [
+          105.73308384418488,
+          72.787109375
+        ],
+        [
+          105.73308384418488,
+          84.7423095703125
+        ],
+        [
+          49.7347286939621,
+          84.7423095703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          167
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          315
+        ],
+        [
+          "Line",
+          103
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          815
+        ],
+        [
+          "Line",
+          163
+        ],
+        [
+          "Equation",
+          8
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          814
+        ],
+        [
+          "Line",
+          148
+        ],
+        [
+          "TextInlineMath",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          219
+        ],
+        [
+          "Line",
+          89
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          286
+        ],
+        [
+          "Line",
+          103
+        ],
+        [
+          "TableCell",
+          51
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          300
+        ],
+        [
+          "Line",
+          99
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          270
+        ],
+        [
+          "Line",
+          108
+        ],
+        [
+          "TableCell",
+          48
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          480
+        ],
+        [
+          "Line",
+          114
+        ],
+        [
+          "ListItem",
+          35
+        ],
+        [
+          "Reference",
+          35
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          260
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Reference",
+          20
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\tmp71rooj9r"
+}
